@@ -8,7 +8,7 @@
     ViewBag.Title = action;
 }
 
-<div class="container">
+@*<div class="container">
     <div class="row text-center">
         <div class="btn-group profile-headline">
             @if (Model.IsLogin)
@@ -29,9 +29,9 @@
             }
         </div>
     </div>
-</div>
+</div>*@
 
-<form asp-controller="Account" asp-action="External" asp-route-returnurl="@Model.ReturnUrl" method="post">
+@*<form asp-controller="Account" asp-action="External" asp-route-returnurl="@Model.ReturnUrl" method="post">
     @foreach (var provider in Model.ExternalProviders)
     {
         var schema = provider.AuthenticationScheme.ToLowerInvariant();
@@ -42,7 +42,7 @@
             </button>
         </div>
     }
-</form>
+</form>*@
 
 @if (Model.HasExternalLogin && Model.HasPasswordAuth)
 {

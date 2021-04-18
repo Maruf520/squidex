@@ -1,4 +1,4 @@
-<div class="login-area">
+<!--<div class="login-area">
     <div class="card">
         <div class="card-body text-center">
             <img alt="Logo" class="login-icon login-element" src="./images/logo.png">
@@ -13,7 +13,7 @@
                 {{ 'start.loginHint' | sqxTranslate }}
             </div>
         </div>
-        
+
         <div class="login-arms"></div>
     </div>
 
@@ -23,3 +23,53 @@
         </small>
     </div>
 </div>
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/073b787187c81c2e1412805663a10b8b?family=Neutra+Display+Titling" rel="stylesheet" type="text/css" />
+    <style>
+        .vl {
+            border-right: 4px solid #F9B208;
+            height: 500px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding: 5%;" style="padding-top: 10px;">
+        <div class="row">
+            <div class="col-lg-5 center">
+                <img src="./images/Rainbow_Visualizer_Logo.jpg" alt="Rainbow" width="3400" height="310">
+
+            </div>
+            <div class="col-lg-1 vl">
+
+            </div>
+            <div class="col-lg-6 text-center justify-content-center align-self-center">
+                <h1>Welcome</h1>
+                <h3>to</h3>
+                <h3>Rainbow Visualizer Admin Portal</h3>
+                <button type="button" class="btn btn-primary" style="border-radius: 10px; margin-top: 10%;" (click)="login()"><h5 style="padding: 0px 10px; margin: 0px;"> <i class="far fa-arrow-alt-circle-right" style="color: white;"></i> LOGIN</h5></button>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

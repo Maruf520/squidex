@@ -8,28 +8,20 @@
     ViewBag.Title = action;
 }
 
-@*<div class="container">
+<div class="container">
     <div class="row text-center">
         <div class="btn-group profile-headline">
-            @if (Model.IsLogin)
-            {
-                <a class="btn btn-toggle btn-primary" asp-controller="Account" asp-action="Login" asp-route-returnurl="@Model.ReturnUrl">@T.Get("common.login")</a>
-            }
-            else
-            {
-                <a class="btn btn-toggle" asp-controller="Account" asp-action="Login" asp-route-returnurl="@Model.ReturnUrl">@T.Get("common.login")</a>
-            }
-            @if (!Model.IsLogin)
-            {
-                <a class="btn btn-toggle btn-primary" asp-controller="Account" asp-action="Signup" asp-route-returnurl="@Model.ReturnUrl">@T.Get("common.signup")</a>
-            }
-            else
-            {
-                <a class="btn btn-toggle" asp-controller="Account" asp-action="Signup" asp-route-returnurl="@Model.ReturnUrl">@T.Get("common.signup")</a>
-            }
+           @* @if (Model.IsLogin)*@
+            
+            <a class="btn btn-toggle btn-primary">Rainbow Visualizer Admin Portal</a>
+            
+            
+            
+                @*<a class="btn btn-toggle" asp-controller="Account" asp-action="Login" asp-route-returnurl="@Model.ReturnUrl">@T.Get("common.login")</a>*@
+            
         </div>
     </div>
-</div>*@
+</div> 
 
 @*<form asp-controller="Account" asp-action="External" asp-route-returnurl="@Model.ReturnUrl" method="post">
     @foreach (var provider in Model.ExternalProviders)

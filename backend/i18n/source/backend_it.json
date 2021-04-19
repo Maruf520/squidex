@@ -315,7 +315,7 @@
   "users.lockedOutText": "Il tuo account è bloccato, si prega di contattare l'amministratore.",
   "users.lockedOutTitle": "Account bloccato",
   "users.lockYourselfError": "Non puoi bloccare te stesso.",
-  "users.login.askAdmin": "",
+  "users.login.askAdmin": "Ask your administrator to create an account.",
   "users.login.emailPlaceholder": "Inserisci l'email",
   "users.login.error": "Email o password non corretti",
   "users.login.loginWith": "{action} con <strong>{provider}</strong>",

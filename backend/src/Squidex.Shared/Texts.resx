@@ -1043,7 +1043,7 @@
     <value>Click here to login</value>
   </data>
   <data name="users.login.noAccountLoginQuestion" xml:space="preserve">
-    <value>Already registered?</value>
+    <value>Ask your administrator to create an account.</value>
   </data>
   <data name="users.login.noAccountSignupAction" xml:space="preserve">
     <value>Click here to signup</value>

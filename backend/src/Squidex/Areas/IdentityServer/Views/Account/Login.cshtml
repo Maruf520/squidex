@@ -13,7 +13,7 @@
         <div class="btn-group profile-headline">
            @* @if (Model.IsLogin)*@
             
-            <a class="btn btn-toggle btn-primary">Rainbow Visualizer Admin Portal</a>
+            <a class="btn btn-block btn-primary" style="color: #ffffff;">Rainbow Visualizer Admin Portal</a>
             
             
             
@@ -36,12 +36,12 @@
     }
 </form>*@
 
-@if (Model.HasExternalLogin && Model.HasPasswordAuth)
+@*@if (Model.HasExternalLogin && Model.HasPasswordAuth)
 {
     <div class="profile-separator">
         <div class="profile-separator-text">@T.Get("users.login.separator")</div>
     </div>
-}
+}*@
 
 @if (Model.HasPasswordAuth)
 {

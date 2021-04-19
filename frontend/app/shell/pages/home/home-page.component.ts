@@ -6,7 +6,7 @@
  */
 
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+
 import { AuthService } from '@app/shared';
 
 @Component({
@@ -18,27 +18,13 @@ export class HomePageComponent {
     public showLoginError = false;
 
     constructor(
-        private readonly authService: AuthService,
-        private readonly router: Router
+        private readonly authService: AuthService
     ) {
     }
 
     public login() {
-        if (this.isIE()) {
-            this.authService.loginRedirect();
-        } else {
-            this.authService.loginPopup()
-                .subscribe(() => {
-                    this.router.navigate(['/app']);
-                }, _ => {
-                    this.showLoginError = true;
-                });
+
+        this.authService.loginRedirect();
         }
-    }
 
-    public isIE() {
-        const isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
-
-        return isIE;
-    }
 }

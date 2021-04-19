@@ -286,7 +286,7 @@
   "users.lockedOutText": "Jouw account is vergrendeld, neem contact op met de beheerder.",
   "users.lockedOutTitle": "Account vergrendeld",
   "users.lockYourselfError": "Je kunt jezelf niet vergrendelen.",
-  "users.login.askAdmin": "",
+  "users.login.askAdmin": "Ask your administrator to create an account.",
   "users.login.emailPlaceholder": "E-mailadres invoeren",
   "users.login.error": "E-mailadres of wachtwoord niet correct",
   "users.login.loginWith": "{action} met <strong> {provider} </strong>",
